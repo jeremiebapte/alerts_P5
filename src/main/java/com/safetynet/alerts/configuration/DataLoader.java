@@ -20,7 +20,7 @@ public class DataLoader {
     public ArrayContainer data() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         ArrayContainer arrayContainer = objectMapper.readValue(resourceFile.getFile(), ArrayContainer.class);
-        System.out.println(arrayContainer);
+        //System.out.println(arrayContainer);
         return arrayContainer;
     }
 }

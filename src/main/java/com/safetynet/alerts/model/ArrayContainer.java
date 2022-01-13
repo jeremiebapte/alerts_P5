@@ -1,34 +1,34 @@
 package com.safetynet.alerts.model;
 
-import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class ArrayContainer {
-    private List<Map>persons;
-    private List<Map>firestations;
-    private List<Map>medicalrecords;
+    private Set<Person> persons;
+    private Set<FireStation>firestations;
+    private Set<MedicalRecord> medicalrecords;
 
-    public List<Map> getPersons() {
+    public Set<Person> getPersons() {
         return persons;
     }
 
-    public void setPersons(List<Map> persons) {
+    public void setPersons(Set<Person> persons) {
         this.persons = persons;
     }
 
-    public List<Map> getFirestations() {
+    public Set<FireStation> getFirestations() {
         return firestations;
     }
 
-    public void setFirestations(List<Map> firestations) {
+    public void setFirestations(Set<FireStation> firestations) {
         this.firestations = firestations;
     }
 
-    public List<Map> getMedicalrecords() {
+    public Set<MedicalRecord> getMedicalrecords() {
         return medicalrecords;
     }
 
-    public void setMedicalrecords(List<Map> medicalrecords) {
+    public void setMedicalrecords(Set<MedicalRecord> medicalrecords) {
         this.medicalrecords = medicalrecords;
     }
 
